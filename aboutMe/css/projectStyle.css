@@ -1,0 +1,117 @@
+/*News Specific Format*/
+/*Left Hand Column*/
+.columnL {
+  float: left;
+  width: 49.5%;
+  padding: 10px;
+  background-color: #8FF793;
+  border-radius: 30px;
+}
+/*Right Hand Column*/
+.columnR {
+  margin-right: 0%;
+  float: right;
+  width: 49.5%;
+  padding: 10px;
+  background-color: #8FBDF7;
+  border-radius: 30px;
+}
+/*Row for new*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 10px;
+}
+.collapsible {
+  color: black;
+    cursor: pointer;
+    width: 6%;
+  border-radius: 30px;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 30px;
+  text-align: center;
+}
+.collR {
+  background-color: #DAF4DB;
+}
+.collL {
+  background-color: #C9DCF5;
+}
+.content {
+  max-height: 0;
+  padding: 0 18px;
+  overflow: hidden;
+  text-align: left;
+  border-radius: 30px;
+  transition: max-height 0.3s ease-out;
+}
+.conL{
+  background-color: #DAF4DB;
+}
+.conR {
+  background-color: #C9DCF5;
+}
+.collapsible:after {
+  content: "+";
+}
+.active:after {
+  content: "\2212";
+}
+* {box-sizing: border-box}
+.mySlides1, .mySlides2, .mySlides3{
+  display: none
+}
+img {
+  vertical-align: middle;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+}
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
