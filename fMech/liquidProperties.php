@@ -6,7 +6,7 @@
 <div class="slideshow-container">
 	<!-- Metric Table -->
 	<div class="mySlides fade">
-		<H1>Metric Liquid Properties Sheet</H1>
+		<H1>Metric Liquid Properties Sheet (Appendix-B Table 1)</H1>
 		<table class="MetricTB" width="100%" style="border-collapse: collapse; border: 1px solid black; text-align: center;">
 			<!-- Table Head -->
 			<thead>
@@ -917,7 +917,7 @@
 	
 	<!-- Imperial Table -->
 	<div class="mySlides fade">
-		<H1>Imperial Liquid Properties Sheet</H1>
+		<H1>Imperial Liquid Properties Sheet (Appendix B Table 2)</H1>
 		<table class="ImpTB" width="100%" style="border-collapse: collapse; border: 1px solid black; text-align: center;">
 			<!-- Table Head -->
 			<thead>
@@ -1791,8 +1791,157 @@
 			</tbody>
 		</table>
 	</div>
+
+	<!-- Lubricating Oils -->
+	<div class="mySlides fade">
+		<H1>Lubricating Oils (Appendix C Table 1)</H1>
+		<table class="ImpTB" width="100%" style="border-collapse: collapse; border: 1px solid black; text-align: center;">
+			<!-- Table Head -->
+			<thead>
+				<tr class="ImperialTBHeader">
+					<th><h2>Lubricant Type</h2></th>
+					<th><h2>Specific Gravity</h2><p>$sg$</p></th>
+					<th><h2>Kinematic Viscosity $\nu$</h2><p></p></th>
+					<th><h2>Kinematic Viscosity $\nu$</h2><p>($ft^2/s$)</p></th>
+					<th><h2>Kinematic Viscosity $\nu$</h2><p></p></th>
+					<th><h2>Kinematic Viscosity $\nu$</h2><p>($ft^2/s$)</p></th>
+					<th><h2>Viscosity Index</h2></th>
+				</tr>
+				<tr class="ImperialTBHeader">
+					
+				</tr>
+			</thead>
+			<tbody class="labels">
+				<tr>
+					<td>
+						<label for="AutoHydr"><h3>Automotive Hydraulic</h3></label>
+					</td>
+					<td><h3>0.887</h3></td>
+					<td><h3>$3.99 \times 10^{-5}$</h3></td>
+					<td><h3>$4.30 \times 10^{-4}$</h3></td>
+					<td><h3>$7.29 \times 10^{-6}$</h3></td>
+					<td><h3>$7.85 \times 10^{-5}$</h3></td>
+					<td><h3>149</h3></td>
+				</tr>
+			</tbody>
+			<!-- Extra info -->
+			<tbody class="hide">
+				<tr>
+				</tr>
+			</tbody>
+			<tbody class="labels">
+				<tr>
+					<td>
+						<label for="EngOil"><h3>Engine Oil</h3></label>
+						<input type="checkbox" name="EngOil" id="EngOil" data-toggle = "toggle">
+					</td>
+				</tr>
+			</tbody>
+			<!-- Extra info -->
+			<tbody class="hide">
+				<tr>
+					<td><h3>Grade 20</h3></td>
+					<td><h3>0.880</h3></td>
+					<td><h3></h3></td>
+					<td><h3></h3></td>
+					<td><h3>$5.6 \times 10^{-6}$</h3></td>
+					<td><h3>$6.03 \times 10^{-5}$</h3></td>
+				</tr>
+				<tr>
+					<td><h3>Grade 40</h3></td>
+					<td><h3>0.882</h3></td>
+					<td><h3></h3></td>
+					<td><h3></h3></td>
+					<td><h3>$12.5 \times 10^{-6}$</h3></td>
+					<td><h3>$1.35 \times 10^{-4}$</h3></td>
+				</tr>
+				<tr>
+					<td><h3>Grade 60</h3></td>
+					<td><h3>0.883</h3></td>
+					<td><h3></h3></td>
+					<td><h3></h3></td>
+					<td><h3>$21.9 \times 10^{-6}$</h3></td>
+					<td><h3>$2.36 \times 10^{-4}$</h3></td>
+				</tr>
+			</tbody>
+			<tbody class="labels">
+				<tr>
+					<td>
+						<label for="GearLub"><h3>Gear Lubricants</h3></label>
+						<input type="checkbox" name="GearLub" id="GearLub" data-toggle = "toggle">
+					</td>
+				</tr>
+			</tbody>
+			<!-- Extra info -->
+			<tbody class="hide">
+				<tr>
+					<td><h3>Grade 80</h3></td>
+					<td><h3>0.890</h3></td>
+					<td><h3></h3></td>
+					<td><h3></h3></td>
+					<td><h3>$7.0 \times 10^{-6}$</h3></td>
+					<td><h3>$7.53 \times 10^{-5}$</h3></td>
+				</tr>
+				<tr>
+					<td><h3>Grade 140</h3></td>
+					<td><h3>0.892</h3></td>
+					<td><h3></h3></td>
+					<td><h3></h3></td>
+					<td><h3>$24.0 \times 10^{-6}$</h3></td>
+					<td><h3>$2.58 \times 10^{-4}$</h3></td>
+				</tr>
+			</tbody>
+			<tbody class="labels">
+				<tr>
+					<td>
+						<label for="MachHydro"><h3>Machine Tool Hydraulic Systems</h3></label>
+						<input type="checkbox" name="MachHydro" id="MachHydro" data-toggle = "toggle">
+					</td>
+				</tr>
+			</tbody>
+			<!-- Extra info -->
+			<tbody class="hide">
+				<tr>
+					<td><h3>Light</h3></td>
+					<td><h3>0.887</h3></td>
+					<td><h3>$3.20 \times 10^{-5}$</h3></td>
+					<td><h3>$3.44 \times 10^{-4}$</h3></td>
+					<td><h3>$4.79 \times 10^{-6}$</h3></td>
+					<td><h3>$5.16 \times 10^{-5}$</h3></td>
+					<td><h3>46</h3></td>
+				</tr>
+				<tr>
+					<td><h3>Medium</h3></td>
+					<td><h3>0.895</h3></td>
+					<td><h3>$6.70 \times 10^{-5}$</h3></td>
+					<td><h3>$7.21 \times 10^{-4}$</h3></td>
+					<td><h3>$7.29 \times 10^{-6}$</h3></td>
+					<td><h3>$7.85 \times 10^{-5}$</h3></td>
+					<td><h3>53</h3></td>
+				</tr>
+				<tr>
+					<td><h3>Heavy</h3></td>
+					<td><h3>0.901</h3></td>
+					<td><h3>$1.96 \times 10^{-4}$</h3></td>
+					<td><h3>$2.11 \times 10^{-3}$</h3></td>
+					<td><h3>$1.40 \times 10^{-5}$</h3></td>
+					<td><h3>$1.51 \times 10^{-4}$</h3></td>
+					<td><h3>53</h3></td>
+				</tr>
+				<tr>
+					<td><h3>Low Temperature</h3></td>
+					<td><h3>0.844</h3></td>
+					<td><h3>$1.40 \times 10^{-5}$</h3></td>
+					<td><h3>$1.51 \times 10^{-4}$</h3></td>
+					<td><h3>$5.20 \times 10^{-6}$</h3></td>
+					<td><h3>$5.60 \times 10^{-5}$</h3></td>
+					<td><h3>374</h3></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 </div>
-<p align="center">Use arrows on sides to switch units! (Metric/Imperial)</p>
+<p align="center">Use arrows on sides for more tables!</p>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 <?php
 	include_once 'includes/footer.php';

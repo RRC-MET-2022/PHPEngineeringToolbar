@@ -52,10 +52,10 @@
 			<div id="mySidenav" class="sidenav">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				<a href="Intro.html">Intro</a>
-				<a href="Equation Sheet/Equation Sheet.html">Equation Sheet</a>
-				<a href="#">Unit Conversion</a>
+				<a href="eqSheet.php">Equation Sheet</a>
+				<a href="units.php">Unit Conversion</a>
 				<button class="dropdown-btn">
-					<a href="#">Static</a>
+					<a href="staticFluids.php">Static</a>
 					<i class="fa fa-caret-down"></i>
 				</button>
 				<div class="dropdown-container">
@@ -68,6 +68,6 @@
 				<div class="dropdown-container">
 					<a href="#"></a>
 				</div>
-				<a href="Reference/LiquidProperties.html">Liquid Properties</a>
+				<a href="liquidProperties.php">Liquid Properties</a>
 			</div>
 		</div>
