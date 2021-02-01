@@ -67,7 +67,7 @@
 <p>
 	<table>
 		<tr>
-			<td>
+			<td>+
 				<h4>Manometers:</h4>
 				<img src="img/manometer.png">S
 			</td>
