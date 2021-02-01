@@ -1,9 +1,9 @@
 <?php
 	include_once 'includes/header.php';
 ?>
-<H1></H1>
+<H1>Safety Factors</H1>
+<p></p>
 
-		<p></p>
 <?php
 	include_once 'includes/footer.php';
 ?>
