@@ -76,6 +76,14 @@
 			  });
 			}
 		</script>
+		<!-- Jquery Table Collapse -->
+		<script>
+			$(document).ready(function() {
+				$('[data-toggle="toggle"]').change(function(){
+					$(this).parents().next('.hide').toggle();
+				});
+			});
+		</script>
 
 		<!-- Navigation Bar -->
 	<table id="navTb" class="navTb"><tr>

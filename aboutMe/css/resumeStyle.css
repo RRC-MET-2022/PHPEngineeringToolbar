@@ -1,0 +1,181 @@
+ :root {
+ 	--ok:#ffb158;
+ 	--medium:#ffe645;
+ 	--great:#6cff45;
+}
+.skillSection {
+	padding: 10px;
+}
+#skillRow {
+	margin-bottom: 5px;
+}
+.skills{
+	display: table;
+	text-align: center;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	background-color: #e8e8e8;
+	min-height: 50px;
+	font-size: 24px;
+	font-family: Tahoma, san-serif;
+	vertical-align: middle;
+}
+.skAutoCAD {
+	width: 90%;
+	background-color: var(--great);
+}
+.skInventor {
+	width: 95%;
+	background-color: var(--great);
+}
+.skFusion {
+	width: 50%;
+	background-color: var(--medium);
+}
+.skSolidEdge {
+	width: 40%;
+	background-color: var(--medium);
+}
+.skBlender {
+	width: 35%;
+	background-color: var(--ok);
+}
+.skGDT {
+	width: 100%;
+	background-color: var(--great);
+}
+.skQI {
+	width: 80%;
+	background-color: var(--great);
+}
+.skEngDes {
+	width:70%;
+	background-color: var(--medium);
+}
+.skDraft {
+	width: 100%;
+	background-color: var(--great);
+}
+.skElec {
+	width: 40%;
+	background-color: var(--medium);
+}
+.skTechGra {
+	width: 80%;
+	background-color: var(--great);
+}
+.skRender {
+	width: 40%;
+	background-color: var(--medium);
+}
+.skVidEdit {
+	width: 80%;
+	background-color: var(--great);
+}
+.skCssTrans {
+	width: 30%;
+	background-color: var(--ok);
+}
+.skCamOp {
+	width: 60%;
+	background-color: var(--medium);
+}
+.skOff {
+	width: 90%;
+	background-color: var(--great);
+}
+.skServSet {
+	width: 50%;
+	background-color: var(--medium);
+}
+.skComTech {
+	width: 90%;
+	background-color: var(--great);
+}
+.skGSuite {
+	width: 70%;
+	background-color: var(--medium);
+}
+.skJava {
+	width: 90%;
+	background-color: var(--great);
+}
+.skPython {
+	width: 70%;
+	background-color: var(--medium);
+}
+.skJavaScript {
+	width: 80%;
+	background-color: var(--great);
+}
+.skWebDev {
+	width: 40%;
+	background-color: var(--medium);
+}
+.skSQL {
+	width: 90%;
+	background-color: var(--great);
+}
+.skLeadership {
+	width: 80%;
+	background-color: var(--great);
+}
+.skTeam {
+	width: 90%;
+	background-color: var(--great);
+}
+.skOrg {
+	width: 70%;
+	background-color: var(--medium);
+}
+.skCustServ {
+	width: 60%;
+	background-color: var(--medium);
+}
+.skConfRes {
+	width: 90%;
+	background-color: var(--great);
+}
+.empTitle, .edTitle {
+	padding: 10px;
+	font-size: 18 px;
+	font-family: tahoma, san-serif;
+	font-style: italic;
+	border-bottom: 1px dashed #c7c7c7c7;
+}
+/*Left Hand Column*/
+.resColumnL {
+  float: left;
+  width: 49.5%;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: white;
+}
+/*Right Hand Column*/
+.resColumnR {
+  margin-right: 0%;
+  float: right;
+  width: 49.5%;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: white;
+}
+/*Row for new*/
+.resRow:after {
+  content: "";
+  display: table;
+  clear: both;
+  height: 10px;
+}
+.Object {
+	padding: 10px;
+	font-size: 18px;
+	font-family: tahoma, san-serif;
+	text-align: center;
+}
+.ResName {
+	font-size: 42px;
+	font-family: tahoma, san-serif;
+	text-align: center;
+	font-weight: bold;
+}

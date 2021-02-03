@@ -37,6 +37,10 @@
 		<td>Chain Rule</td>
 		<td>$${{d}\over{dx}} f(g(x)) = f'(g(x))\cdot g'(x)$$</td>
 	</tr>
+	<tr>
+		<td>Implicit Differentialtion</td>
+		<td></td>
+	</tr>
 </table>
 
 <?php

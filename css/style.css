@@ -1,3 +1,50 @@
+/*This is the website overall format. When you change this you change the entire website!! so be careful!*/
+/*Table Headers*/
+th {
+  font-size: 20px;
+  font-weight: bold;
+
+}
+/*Paragraph Format*/
+p {
+  font-family: Times New Roman, serif;
+  font-size: 16px
+}
+/*Bold Format*/
+b {
+  font-weight: bold;
+}
+/*Italics Format*/
+i {
+  font-style: italic;
+}
+/*Overall Heading Format*/
+h1, h2, h3, h4, h5 {
+  font-family: Tahoma, san-serif;
+  font-weight: bold;
+}
+/*Title Format*/
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+/*Section Format*/
+h2 {
+  font-size: 26px;
+  text-align: center;
+}
+/*Heading 1 Format*/
+h3 {
+  font-size: 24px;
+}
+/*Heading 2 Format*/
+h4 {
+  font-size: 22px;
+}
+/*Heading 3 Format*/
+h5 {
+  font-size: 20px;
+}
 /*Background Style*/
 .bgd {
   position: fixed;
@@ -179,7 +226,6 @@ a:link, a:visited {
 .MainContent {
   transition: margin-left .3s;
 }
-
 .navTb {
   transition: margin-left .5s;
 }
@@ -189,4 +235,28 @@ a:link, a:visited {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+.EquationTB {
+  width: 100%;
+  position: relative;
+}
+.EquationTB, .EqId, .EqNm, .Equation, .EqRe, .EqEx {
+  text-align: center;
+}
+.EqTBHeader {
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4)
+}
+.Equation {
+  font-size: 20px;
+}
+.hide {
+  display: none;
+}
+.labels{
+}
+.MainContent {
+  max-height: 3000px;
+}
+[data-toggle="toggle"] {
+  display: none;
 }
