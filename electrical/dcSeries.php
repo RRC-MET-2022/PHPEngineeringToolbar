@@ -3,8 +3,15 @@
 ?>
 <h1>DC Series Circuits</h1>
 <p>What are series circuits, and why are they in series. All this and more in this article.</p>
-<h2>Series Circuit Equations</h2>
-<table>
+<h4>Series Circuit Equations</h4>
+<p>
+	<ul>
+		<li>Voltage drops add to equal total voltage.</li>
+		<li>All components share the same current.</li>
+		<li>Resistance can be summed.</li>
+	</ul>
+</p>
+<table width="100%">
 	<tr>
 		<th>Section</th>
 		<th>Equation ID</th>
@@ -34,7 +41,7 @@
 <h2>Kirchoff's Voltage Law</h2>
 <p>$\sum V = 0$</p>
 <h2>Glossary</h2>
-<table>
+<table width="100%">
 	<tr>
 		<th>Term</th>
 		<th>Definition</th>

@@ -55,6 +55,7 @@
 				<a href="amps.php">Amperage</a>
 				<a href="volts.php">Voltage</a>
 				<a href="resistance.php">Resistance</a>
+				<a href="Power.php">Power</a>
 				<a href="indusctance.php">Inductance</a>
 				<a href="capacitance.php">Capacitance</a>
 				<a href="diodes.php">Diodes</a>

@@ -2,7 +2,15 @@
 	include_once 'includes/header.php';
 ?>
 <h1>DC Parallel Circuits</h1>
-<table>
+<p>
+	<h4>Rule of thumb:</h4>
+	<ul>
+		<li>All components have the same voltage.</li>
+		<li>Currents can be summed.</li>
+		<li>Recipricals for resistances.</li>
+	</ul>
+</p>
+<table width="100%">
 	<tr>
 		<th>Section</th>
 		<th>Equation ID</th>
@@ -35,7 +43,7 @@
 
 <h2>Current Divider Rule</h2>
 <h2>Glossary</h2>
-<table>
+<table width="100%">
 	<tr>
 		<th>Term</th>
 		<th>Definition</th>
