@@ -30,9 +30,16 @@
 	<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 	<!-- Import JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NVHK45K');</script>
+	<!-- End Google Tag Manager -->
 </head>
 <!-- Main Body -->
 <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVHK45K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<!-- This allows the Background to be in the background -->
 	<canvas id="bgd" class="bgd">
 	<!-- Background -->
@@ -51,7 +58,7 @@
 		<div class="sideBar" id="navEl">
 			<div id="mySidenav" class="sidenav">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-				<a href="index.php">Intro</a>
+				<a href="index.php">Home</a>
 				<a href="amps.php">Amperage</a>
 				<a href="volts.php">Voltage</a>
 				<a href="resistance.php">Resistance</a>

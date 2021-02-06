@@ -3,7 +3,6 @@
 th {
   font-size: 20px;
   font-weight: bold;
-
 }
 /*Paragraph Format*/
 p {
@@ -45,6 +44,8 @@ h4 {
 h5 {
   font-size: 20px;
 }
+
+
 /*Background Style*/
 .bgd {
   position: fixed;
@@ -56,19 +57,25 @@ h5 {
 /*Navbar table*/
 .navTb {
   position: fixed;
-  top: 25px;
+  top: -10px;
   left: 1%;
   margin-top: 0px;
+  padding-top: 0px;
   margin-left: 35px;
   margin-right: 40px;
   width: 95%;
   border-radius: 10px;
-  transition: 0.3s;
 }
 /*Nav Button Style*/
 .navEl{
   background-color: #4CAF50;
+  padding: 0px;
+  margin: 0px;
   border-radius: 30px;
+  transition-duration: 0.3s;
+}
+#navEl:hover {
+  height
 }
 /*Header Text*/
 .navTxt {
@@ -76,10 +83,6 @@ h5 {
   height: 0px;
   opacity: 0%;
   transition: 0.3s;
-}
-a:link, a:visited {
-  text-decoration: none !important;
-  color: black !important;
 }
 /*header image*/
 .navImg {
@@ -105,9 +108,12 @@ a:link, a:visited {
   font: 25px Tahoma, san-serif;
   opacity: 100%;
 }
+.navTb {
+  transition: margin-left .5s;
+}
 /*The body of the article*/
 .mainContent {
-  margin-top: 100px;
+  margin-top: 75px;
   margin-left: 35px;
   margin-right: 35px;
   margin-bottom: 100px;
@@ -226,9 +232,6 @@ a:link, a:visited {
 .MainContent {
   transition: margin-left .3s;
 }
-.navTb {
-  transition: margin-left .5s;
-}
 .sideNavBtn {
   transition: opacity .5s;
 }
@@ -255,8 +258,12 @@ a:link, a:visited {
 .labels{
 }
 .MainContent {
-  max-height: 3000px;
+  min-height: 3000px;
 }
 [data-toggle="toggle"] {
   display: none;
+}
+a:link, a:visited {
+  text-decoration: none !important;
+  color: black !important;
 }

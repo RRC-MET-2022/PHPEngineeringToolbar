@@ -14,8 +14,6 @@ function drawBorder() {
 	borderCanvas.height = cheight;
 	var bg = borderCanvas.getContext("2d");
 
-	console.log(cheight);
-
 	var leftM = 50;
 	var rightM = cwidth-leftM;
 	var topM = 50;

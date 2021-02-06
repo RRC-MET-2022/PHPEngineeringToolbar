@@ -93,7 +93,7 @@
 		<tr>
 			<td class="EqId" id="EqId">2-3</td>
 			<td class="EqNm" id="EqNm">Kinematic Viscosity</td>
-			<td class="Equation" id="Equation">$$v = {\eta \over \rho}$$</td>
+			<td class="Equation" id="Equation">$$\nu = {\eta \over \rho}$$</td>
 			<td class="EqRe" id="EqRe"><a href=""></a></td>
 			<td class="EqEx" id="EqEx"><a href=""></a></td>
 		</tr>
