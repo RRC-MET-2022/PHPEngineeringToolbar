@@ -67,6 +67,11 @@
 			<img src="../img/bolt.png" class="navImg grow" id="navImg">
 		</div></a></td>
 
+		<!-- Home -->
+		<td width="2%" align="center"><a href="../index.php"><div id="navEl" class="navEl">
+			<img src="../img/home.png" class="navImg grow" id="navImg">
+		</div></a></td>
+
 		<!-- Fluid Mechanics -->
 		<td width="17%" align="center"><a href="../fMech"><div id="navEl" class="navEl">
 			<p id="navTxt" class="navTxt">Fluid Mechanics</p>
@@ -86,7 +91,7 @@
 		</div></a></td>
 
 		<!-- News -->
-		<td width="15%" align="center"><a href="../nindex"><div id="navEl" class="navEl">
+		<td width="15%" align="center"><a href="../nIndex"><div id="navEl" class="navEl">
 			<p id="navTxt" class="navTxt">News</p>
 			<img src="../img/news.png" class="navImg grow" id="navImg">
 		</div></a></td>

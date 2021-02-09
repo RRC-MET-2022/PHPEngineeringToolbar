@@ -57,6 +57,6 @@
 		<div class="sideBar" id="navEl">
 			<div id="mySidenav" class="sidenav">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-				<a href=""></a>
+				<a href="otherTest.php">Other Testing Methods</a>
 			</div>
 		</div>

@@ -84,10 +84,11 @@
 					<a href="acParallel.php">Parallel Circuits</a>
 				</div>
 				<button class="dropdown-btn">
-					<a href="ref.php">Reference</a>
+					<a href="#">Reference</a>
 					<i class="fa fa-caret-down"></i>
 				</button>
 				<div class="dropdown-container">
+					<a href="ref.php">General</a>
 					<a href="#">Schematics</a>
 					<a href="#"></a>
 				</div>

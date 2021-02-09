@@ -57,25 +57,22 @@ h5 {
 /*Navbar table*/
 .navTb {
   position: fixed;
-  top: -10px;
+  top: -5px;
   left: 1%;
-  margin-top: 0px;
-  padding-top: 0px;
   margin-left: 35px;
   margin-right: 40px;
   width: 95%;
   border-radius: 10px;
+  z-index: 1;
 }
 /*Nav Button Style*/
 .navEl{
   background-color: #4CAF50;
   padding: 0px;
+  top:35px;
   margin: 0px;
   border-radius: 30px;
   transition-duration: 0.3s;
-}
-#navEl:hover {
-  height
 }
 /*Header Text*/
 .navTxt {
@@ -266,4 +263,17 @@ h5 {
 a:link, a:visited {
   text-decoration: none !important;
   color: black !important;
+}
+.secSep {
+  height: 15px;
+}
+.mainSep {
+  height: 45px;
+}
+.noScrollBar::-webkit-scrollbar{
+  display: none;
+}
+.noScrollBar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }

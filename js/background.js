@@ -7,7 +7,7 @@ function drawBorder() {
 
 	var cwidth = document.body.clientWidth + 15;
 
-	var cheight = document.body.clientHeight + 165;
+	var cheight = document.body.clientHeight + 1200;
 
 	var borderCanvas = document.getElementById("bgd");
 	borderCanvas.width = cwidth;

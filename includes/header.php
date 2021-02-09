@@ -51,3 +51,12 @@
 
 	<!-- Start of mainContent -->
 	<div class="mainContent" id="mainContent">
+		<!-- Side Bar Navigation -->
+		<div class="sideBar" id="navEl">
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="help.php">Help!</a>
+				<a href="qa.php">Q&A (AMA with Alex)</a>
+				<a href="team.php">Join the Team!</a>
+			</div>
+		</div>

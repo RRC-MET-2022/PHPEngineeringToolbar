@@ -12,7 +12,7 @@
 	<!-- Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="../css/style.css"/>
 	<!-- Mechanical Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="css/mechStyle.css">
+	<link rel="stylesheet" type="text/css" href="css/mathStyle.css">
 	<!-- Background Creation Script -->
 	<script src="../js/background.js"></script>
 	<!-- Init MathJax -->
