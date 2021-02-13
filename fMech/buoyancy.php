@@ -1,10 +1,20 @@
 <?php
 	include_once 'includes/header.php';
 ?>
-<H1>Welcome to </H1>
-
-		<p></p>
-		<div class="secSep"></div>
+<h1>Buoyancy</h1>
+<div class="secSep"></div>
+<h2>The Buoyancy Force</h2>
+<div class="secSep"></div>
+<h2>Stability</h2>
+<div class="secSep"></div>
+<h3>Floating Problems</h3>
+<div class="secSep"></div>
+<h3>Submerged Problems</h3>
+<div class="secSep"></div>
+<h3>Equations of Equilibrium</h3>
+<div class="secSep"></div>
+<h3>Stability Problems</h3>
+<div class="secSep"></div>
 <h2>Equation Table</h2>
 <div class="secSep"></div>
 <table class="EquationTB">

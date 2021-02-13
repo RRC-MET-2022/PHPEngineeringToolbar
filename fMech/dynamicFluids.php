@@ -1,10 +1,17 @@
 <?php
 	include_once 'includes/header.php';
 ?>
-<H1>Welcome to </H1>
+<h1>Flow of Fluids</h1>
 
-		<p></p>
-		<div class="secSep"></div>
+<h2>Units of Flow</h2>
+<h3>Volume Flow Rate</h3>
+<p>$$Q = {{\text{Volume}}\over{\text{Time}}} = {{m^3}\over{sec}}$$</p>
+<h3>Mass Flow Rate</h3>
+<p>$$M = \rho Q = $$</p>
+<h3>Weight Flow Rate</h3>
+<p>$$W = \gamma Q =$$</p>
+
+<div class="secSep"></div>
 <h2>Equation Table</h2>
 <div class="secSep"></div>
 <table class="EquationTB">

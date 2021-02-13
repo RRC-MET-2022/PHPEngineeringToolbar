@@ -17,6 +17,9 @@ b {
 i {
   font-style: italic;
 }
+u {
+  text-decoration-line: underline; 
+}
 /*Overall Heading Format*/
 h1, h2, h3, h4, h5 {
   font-family: Tahoma, san-serif;
@@ -262,7 +265,7 @@ h5 {
 }
 a:link, a:visited {
   text-decoration: none !important;
-  color: black !important;
+  color: #0645ad !important;
 }
 .secSep {
   height: 15px;

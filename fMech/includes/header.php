@@ -58,22 +58,14 @@
 			<div id="mySidenav" class="sidenav">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				<a href="Intro.html">Intro</a>
+				<a href="pressure.php">Pressure</a>
+				<a href="viscosity.php">Viscosity</a>
+				<a href="staticFluids.php">Statics</a>
+				<a href="buoyancy.php">Buoyancy</a>
+				<a href="dynamicFluids.php">Dynamics</a>
 				<a href="eqSheet.php">Equation Sheet</a>
-				<a href="units.php">Unit Conversion</a>
-				<button class="dropdown-btn">
-					<a href="staticFluids.php">Static</a>
-					<i class="fa fa-caret-down"></i>
-				</button>
-				<div class="dropdown-container">
-					<a href="#"></a>
-				</div>
-				<button class="dropdown-btn">
-					<a href="#">Dynamic</a>
-					<i class="fa fa-caret-down"></i>
-				</button>
-				<div class="dropdown-container">
-					<a href="#"></a>
-				</div>
+				<a href="units.php">Unit Conversions</a>
 				<a href="liquidProperties.php">Liquid Properties</a>
+				<a href="ref.php">Reference</a>
 			</div>
 		</div>

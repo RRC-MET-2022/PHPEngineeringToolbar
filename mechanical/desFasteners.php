@@ -2,8 +2,38 @@
 	include_once 'includes/header.php';
 ?>
 <H1>Fasteners</H1>
+<div class="secSep"></div>
+<h2>Calculating For Dean</h2>
+<div class="secSep"></div>
+<table>
+	<tr>
+		<th>Math</th>
+		<th>Explanation</th>
+		<th>References</th>
+	</tr>
+	<tr>
+		<td>$$P_{init} = \sum P$$</td>
+		<td>Add all of the initial loads together.</td>
+		<td>Should be given in the question.</td>
+	</tr>
+	<tr>
+		<td>$$P_{pre} =  P_{init} \times SF$$</td>
+		<td>Muliply the Initial load with the safety factor.</td>
+		<td>Given value (assume SF = 2 for general)</td>
+	</tr>
+	<tr>
+		<td>$$F_{proof} =A_s \times \sigma _{proof}$$</td>
+		<td>To find $F_{proof}$ we need to multiply the tensile stress area by the </td>
+	</tr>
+</table>
 
+
+
+<div class="mainSep"></div>
+<h1>Reference</h1>
+<div class="secSep"></div>
 <h2>Categories</h2>
+<div class="secSep"></div>
 <table>
 	<tr>
 		<th>Removable</th>
@@ -19,208 +49,11 @@
 	</tr>
 </table>
 <h2>Bolts or Screws?</h2>
+<div class="secSep"></div>
 <p>Bolts needs a nut, screws don't. </p>
+<div class="secSep"></div>
 <h2>Drive Types</h2>
-<table>
-	<tr>
-		<th>Head On View</th>
-		<th>Ortho View</th>
-		<th>Name</th>
-		<th>Sizes</th>
-	</tr>
-	<tr>
-		<td><img src="img/philipsHO.png" style="width: 100px; height: 100px;"></td>
-		<td><img src="img/philipsO.png"style="width: 100px; height: 100px;"></td>
-		<td>Philips (Frearson)</td>
-		<td>#0000, #000, #00, #0, #1, #2, #3, #4, #5</td>
-	</tr>
-	<tr>
-		<td><img src="img/slotHO.png" style="width: 100px; height: 100px;"></td>
-		<td><img src="img/slotO.png" style="width: 100px; height: 100px;"></td>
-		<td>Slotted</td>
-		<td><table>
-			<tr>
-				<th>Imperial (in)</th>
-				<th>Metric (mm)</th>
-			</tr>
-			<tr>
-				<td></td>
-				<td>0.8</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>1</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>1.2</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>1.5</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>1.8</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>2</td>
-			</tr>
-			<tr>
-				<td>3/32</td>
-				<td>2.5</td>
-			</tr>
-			<tr>
-				<td>1/8</td>
-				<td>3</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>3.5</td>
-			</tr>
-			<tr>
-				<td>5/32</td>
-				<td>4</td>
-			</tr>
-			<tr>
-				<td>3/16</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>4.5</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>5</td>
-			</tr>
-			<tr>
-				<td>7/32</td>
-				<td>5.5</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>6</td>
-			</tr>
-			<tr>
-				<td>1/4</td>
-				<td>6.5</td>
-			</tr>
-			<tr>
-				<td>5/16</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>3/8</td>
-				<td></td>
-			</tr>
-		</table></td>
-	</tr>
-	<tr>
-		<td><img src="img/allenHO.png" style="width: 100px; height: 100px;"></td>
-		<td><img src="img/allenO.png" style="width: 100px; height: 100px;"></td>
-		<td>Allen (Hex or socket)</td>
-		<td><table>
-			<tr>
-				<th>Imperial (in)</th>
-				<th>Metric (mm)</th>
-			</tr>
-			<tr>
-				<td></td>
-				<td>0.7</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>0.9</td>
-			</tr>
-			<tr>
-				<td>3/64</td>
-				<td>1.2</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>1.3</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>1.8</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>2</td>
-			</tr>
-			<tr>
-				<td>3/32</td>
-				<td>2.5</td>
-			</tr>
-			<tr>
-				<td>1/8</td>
-				<td>3</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>3.5</td>
-			</tr>
-			<tr>
-				<td>5/32</td>
-				<td>4</td>
-			</tr>
-			<tr>
-				<td>3/16</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>4.5</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>5</td>
-			</tr>
-			<tr>
-				<td>7/32</td>
-				<td>5.5</td>
-			</tr>
-			<tr>
-				<td></td>
-				<td>6</td>
-			</tr>
-			<tr>
-				<td>1/4</td>
-				<td>6.5</td>
-			</tr>
-			<tr>
-				<td>5/16</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>3/8</td>
-				<td></td>
-			</tr>
-		</table></td>
-	</tr>
-	<tr>
-		<td><img src="img/squareHO.png" style="width: 100px; height: 100px;"></td>
-		<td><img src="img/squareO.png" style="width: 100px; height: 100px;"></td>
-		<td>Square (Robertson)</td>
-		<td>#00, #0, #1, #2, #3, #4</td>
-	</tr>
-	<tr>
-		<td><img src="img/torxHO.png" style="width: 100px; height: 100px;"></td>
-		<td><img src="img/torxO.png" style="width: 100px; height: 100px;"></td>
-		<td>Torx (Star)</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td><img src="img/torxSHO.png" style="width: 100px; height: 100px;"></td>
-		<td><img src="img/torxSO.png" style="width: 100px; height: 100px;"></td>
-		<td>Torx (Security)</td>
-		<td></td>
-	</tr>
-</table>
-
-
+<div class="secSep"></div>
 <table width="100%">
 	<thead><tr>
 		<th>Screw Drive Family</th>
