@@ -62,36 +62,13 @@
 				<a href="amps.php">Amperage</a>
 				<a href="volts.php">Voltage</a>
 				<a href="resistance.php">Resistance</a>
+				<a href="dcSeries.php">Series Circuits</a>
+				<a href="dcParallel.php">Parallel Circuits</a>
 				<a href="Power.php">Power</a>
 				<a href="indusctance.php">Inductance</a>
 				<a href="capacitance.php">Capacitance</a>
 				<a href="diodes.php">Diodes</a>
 				<a href="transistors.php">Transistors</a>
-				<button class="dropdown-btn">
-					<a href="#">DC Circuits</a>
-					<i class="fa fa-caret-down"></i>
-				</button>
-				<div class="dropdown-container">
-					<a href="dcSeries.php">Series Circuits</a>
-					<a href="dcParallel.php">Parallel Circuits</a>
-				</div>
-				<button class="dropdown-btn">
-					<a href="">AC Circuits</a>
-					<i class="fa fa-caret-down"></i>
-				</button>
-				<div class="dropdown-container">
-					<a href="acSeries.php">Series Circuits</a>
-					<a href="acParallel.php">Parallel Circuits</a>
-				</div>
-				<button class="dropdown-btn">
-					<a href="#">Reference</a>
-					<i class="fa fa-caret-down"></i>
-				</button>
-				<div class="dropdown-container">
-					<a href="ref.php">General</a>
-					<a href="#">Schematics</a>
-					<a href="#"></a>
-				</div>
 				<button class="dropdown-btn">
 					<a href="#">Programming</a>
 					<i class="fa fa-caret-down"></i>
@@ -107,6 +84,15 @@
 					<a href="#">Function</a>
 					<a href="#">Object Orientated Programming</a>
 					<a href="#">Constructors</a>
+				</div>
+				<button class="dropdown-btn">
+					<a href="#">Reference</a>
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-container">
+					<a href="ref.php">General</a>
+					<a href="#">Schematics</a>
+					<a href="#"></a>
 				</div>
 			</div>
 		</div>
