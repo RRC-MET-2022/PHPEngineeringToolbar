@@ -1,7 +1,22 @@
 <?php
 	include_once 'includes/header.php';
 ?>
-<h1>Measurement of Pressure</h1>
+<h1>Pressure</h1>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Units of Pressure</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h3>Definition of metric pressure units</h3>
+<div class="secSep"></div>
+<p>$$\text{Pressure} = {{\text{Force}}\over{\text{Area}}} = {{N}\over{m^2}} = \text{pascal (Pa)}$$</p>
+<div class="secSep"></div>
+<h3>Definition of imperial pressure units</h3>
+<div class="secSep"></div>
+<p>$$\text{Pressure} = {{\text{Force}}\over{\text{Area}}} = {{lb}\over{in^2}} = \text{Pounds per Square Inch (psi)}$$</p>
+<div class="secSep"></div>
 <h2>Types of Pressure</h2>
 <table>
 	<tr>
@@ -32,7 +47,7 @@
 	</table>
 </p>
 <p>
-	<img src="img/Figure 3.7.png">
+	<img src="img/figure37.png">
 	<table>
 		<tr>
 			<td>3-4</td>
@@ -51,13 +66,13 @@
 		<tr>
 			<td>3-6</td>
 			<td>Top Pressure of Submerged Cylinder</td>
-			<td>$$F_2 = (p_1 + dp)A</td>
+			<td>$$F_2 = (p_1 + dp)A$$</td>
 			<td>Pressure, Figure 3.7, Geometry</td>
 			<td>3-5</td>
 		</tr>
 		<tr><td>3-7</td>
 			<td>Top Pressure of Submerged Cylinder</td>
-			<td>$$F_2 = (p_1 + dp)A</td>
+			<td>$$F_2 = (p_1 + dp)A$$</td>
 			<td>Pressure, Figure 3.7, Geometry</td>
 			<td>3-5</td>
 		</tr>
@@ -82,6 +97,41 @@
 		</tr>
 	</table>
 </p>
+<div class="secSep"></div>
+<h2>Pascal's Paradox</h2>
+<div class="secSep"></div>
+<h2>Piezometric Head</h2>
+<div class="secSep"></div>
+<div class="secSep"></div>
+<h2>Equation Table</h2>
+<div class="secSep"></div>
+<table class="EquationTB">
+	<!-- Table Head -->
+	<thead><tr class="EqTBHeader">
+			<th><h2>Equation ID</h2></th>
+			<th><h2>Equation Name</h2></th>
+			<th><h2>Equation</h2></th>
+			<th><h2>Requires</h2></th>
+			<th><h2>Extends</h2></th>
+	</tr></thead>
+</table>
+<div class="secSep"></div>
+<h2>Glossary</h2>
+<div class="secSep"></div>
+<table>
+	<tr>
+		<th>Term</th>
+		<th>Definition</th>
+	</tr>
+</table>
+<div class="secSep"></div>
+<h2>References</h2>
+<div class="secSep"></div>
+<table>
+	<tr>
+		<th></th>
+	</tr>
+</table>
 <?php
 	include_once 'includes/footer.php';
 ?>

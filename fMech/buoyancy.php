@@ -5,6 +5,8 @@
 <div class="secSep"></div>
 <h2>The Buoyancy Force</h2>
 <div class="secSep"></div>
+<p>$$\text{Buoyant Force} (F_b) = \text{Specific Weight} \times \text{Displaced Volume} = \gamma_f \times V_d$$</p>
+<div class="secSep"></div>
 <h2>Stability</h2>
 <div class="secSep"></div>
 <h3>Floating Problems</h3>
