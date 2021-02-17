@@ -30,15 +30,14 @@
 	<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 	<!-- Import JQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NVHK45K');</script>
-	<!-- End Google Tag Manager -->
+	<!-- Import Lodash -->
+	<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
+	<!-- Import Backbone -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.4.0/backbone-min.js" integrity="sha512-9EgQDzuYx8wJBppM4hcxK8iXc5a1rFLp/Chug4kIcSWRDEgjMiClF8Y3Ja9/0t8RDDg19IfY5rs6zaPS9eaEBw==" crossorigin="anonymous"></script>
+	<!-- Import Joint -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jointjs/3.3.1/joint.min.js" integrity="sha512-d/ffKwyaXptpd9WXkO5BXMu/qdqfMW9AyNkKrmuHaVe22/qmzWX+Ku8hTuR9iR7cmE1QuuAmaHMWXZSArJ3GLA==" crossorigin="anonymous"></script>
 <!-- Main Body -->
 <body>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NVHK45K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
 	<!-- This allows the Background to be in the background -->
 	<canvas id="bgd" class="bgd">
 	<!-- Background -->

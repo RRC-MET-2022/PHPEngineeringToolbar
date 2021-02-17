@@ -1,4 +1,4 @@
-<?php
+;<?php
 	include_once 'includes/header.php';
 ?>
 <h1>DC Parallel Circuits</h1>
