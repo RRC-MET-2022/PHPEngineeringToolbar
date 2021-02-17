@@ -2,13 +2,26 @@
 	include_once 'includes/header.php';
 ?>
 <h1>Capacitance</h1>
-<div class="secSep"></div>
-<h2><i>WARNING</i></h2>
+<div class="mainSep"></div>
+<h2><i><b>WARNING</b></i></h2>
 <div class="secSep"></div>
 <p></p>
 <div class="secSep"></div>
-
-<h2>Math</h2>
+<h2>Intro</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Intensional Capacitance</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Unintensional Capacitance</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Types of Capacitors</h2>
+<div class="secSep"></div>
+<p></p>
 <div class="secSep"></div>
 <h3>Finding/Making a Capacitor</h3>
 <div class="secSep"></div>
@@ -117,31 +130,48 @@
 	</tr>
 </table>
 <p><i>Table from: <a href="https://en.wikipedia.org/wiki/Relative_permittivity">Wikipedia</a></i></p>
-<div class="mainSep"></div>
-<h1>Capacitors</h1>
 <div class="secSep"></div>
-<table>
-	<tr>
-		<th>Equation ID</th>
-		<th>Equation</th>
-		<th>Name Equation</th>
-		<th>Requires</th>
-		<th>Extends</th>
-	</tr>
-	<tr>
-		<td>E-?</td>
-		<td>$${{1}\over{C_{Total}}} = {{1}\over{C_1}} + {{1}\over{C_2}} + {{1}\over{C_n}}$$</td>
-		<td>Capacitance in a Series Circuit</td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>E-?</td>
-		<td>$$C_{Total} = C_1 + C_2 + C_n$$</td>
-		<td>Capacitance in a Parallel Circuit</td>
-		<td></td>
-		<td></td>
-	</tr>
+<h2>Sizes</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Capacitors in Series</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Capacitors in Parallel</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Measuring Capacitance</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<div class="mainSep"></div>
+<table class="EquationTB">
+	<thead><tr class="EqTBHeader">
+			<th><h2>Equation ID</h2></th>
+			<th><h2>Equation Name</h2></th>
+			<th><h2>Equation</h2></th>
+			<th><h2>Requires</h2></th>
+			<th><h2>Extends</h2></th>
+	</tr></thead>
+	<tbody>
+		<tr>
+			<td>E-?</td>
+			<td>Capacitance in a Series Circuit</td>
+			<td>$${{1}\over{C_{Total}}} = {{1}\over{C_1}} + {{1}\over{C_2}} + {{1}\over{C_n}}$$</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>E-?</td>
+			<td>Capacitance in a Parallel Circuit</td>
+			<td>$$C_{Total} = C_1 + C_2 + C_n$$</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>	
 </table>
 <?php
 	include_once 'includes/footer.php';

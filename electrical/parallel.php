@@ -1,48 +1,72 @@
 ;<?php
 	include_once 'includes/header.php';
 ?>
-<h1>DC Parallel Circuits</h1>
-<p>
-	<h4>Rule of thumb:</h4>
-	<ul>
-		<li>All components have the same voltage.</li>
-		<li>Currents can be summed.</li>
-		<li>Recipricals for resistances.</li>
-	</ul>
-</p>
-<table width="100%">
-	<tr>
-		<th>Section</th>
-		<th>Equation ID</th>
-		<th>Equation</th>
-	</tr>
-	<tr>
-		<td>Resistance</td>
-		<td>E-?</td>
-		<td>$$\sum R = {{1}\over{{{1}\over{R_1}}+{{1}\over{R_2}}+{{1}\over{R_N}}}}$$</td>
-	</tr>
-	<tr>
-		<td>Voltage</td>
-		<td>E-?</td>
-		<td>$$\sum V = V_{R1} + V_{R2} + V_{RN}$$</td>
-	</tr>
-	<tr>
-		<td>Current/Amps</td>
-		<td>E-?</td>
-		<td>$$\sum I = IR_1 + IR_2 + IR_N$$</td>
-	</tr>
-	<tr>
-		<td>Power</td>
-		<td>E-?</td>
-		<td>$$\sum P  = P_{R1} + P_{R2} + P_{RN}$$</td>
-	</tr>
+<h1>Parallel Circuits</h1>
+<div class="mainSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Amperage</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Voltage</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Resistance</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Simple Parallel Circuits</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Complex Parallel Circuits</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="mainSep"></div>
+<table class="EquationTB">
+	<thead><tr class="EqTBHeader">
+			<th><h2>Equation ID</h2></th>
+			<th><h2>Equation Name</h2></th>
+			<th><h2>Equation</h2></th>
+			<th><h2>Requires</h2></th>
+			<th><h2>Extends</h2></th>
+	</tr></thead>
+	<tbody>
+		<tr>
+			<td>E-?</td>
+			<td>Amperage in a Series Circuit</td>
+			<td>$$\text{Amperage}_{\text{Total}} (I_{\text{Total}}) = I_1 + I_2 + ... + I_N$$</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>E-?</td>
+			<td>Voltage in a Series Circuit</td>
+			<td>$$\text{Voltage}_{\text{Total}} (V_{\text{Total}} = V_{\text{Anywhere}}$$</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>E-?</td>
+			<td>Resistance in a Series Circuit</td>
+			<td>$$R_{\text{Total}} = \left({{1}\over{R_1}} + {{1}\over{R_2}} + ... + {{1}\over{R_N}}\right)^{-1}$$</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>E-?</td>
+			<td>Power in a Series Circuit</td>
+			<td>$$P_{\text{Total}} = P_{R1} + P_{R2} + ... + P_{RN}$$</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
 </table>
-<h2>Kirchoff's Current Law</h2>
-<p>$$\sum I = 0$$</p>
-
-
-<h2>Current Divider Rule</h2>
+<div class="secSep"></div>
 <h2>Glossary</h2>
+<div class="secSep"></div>
 <table width="100%">
 	<tr>
 		<th>Term</th>

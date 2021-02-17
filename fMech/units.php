@@ -2,7 +2,7 @@
 	include_once 'includes/header.php';
 ?>
 <h1>Units and Fluid basics</h1>
-<div class="secSep"></div>
+<div class="mainSep"></div>
 <h2>Common Units Table</h2>
 <div class="secSep"></div>
 <table width="100%">

@@ -2,19 +2,25 @@
 	include_once 'includes/header.php';
 ?>
 <h1>Resistance and Resistors</h1>
+<div class="mainSep"></div>
+<h2>Explanation</h2>
 <div class="secSep"></div>
-
-<p>
-	What are those cylindrical things on my circuit board and why are they used everywhere?
-	All this and more on this artical about Resistance and the great Resistor.
-</p>
-<h2>What is resistance!</h2>
+<p>Resistance is the amount that something resists the flow of electrons. Think of the resistance as being the diameter of the pipe. As the pipe becomes smaller, the more effort it will take to push through more electrons.</p>
 <div class="secSep"></div>
-<p>Something that resists the flow of electrons!</p>
+<h2>Ohm's Law</h2>
 <div class="secSep"></div>
-<h2>What is a resistor?</h2>
+<p>When using Ohm's law we often assume that the resistance is the one constant. But for some situations resistance will change.</p>
+<p>$$\text{Resistance} = {{{\text{Voltage}}\over{\text{Current}}}}$$</p>
 <div class="secSep"></div>
-<p>A device that is commonly used to create voltage drops and current limited circuits</p>
+<h2>Series Circuits</h2>
+<div class="secSep"></div>
+<p>In series the resistance of the circuit is the sum of all resistances in the circuit.</p>
+<p>$$\text{Resistance}_{\text{Total}} = R_1 + R_2 + ... + R_N$$</p>
+<div class="secSep"></div>
+<h2>Parallel Circuits</h2>
+<div class="secSep"></div>
+<p>The total resistance of parallel circuit is the inverse of the inverse of each resistance in parallel. Kinda confusing. Just look at the equation:</p>
+<p>$$R_{\text{Total}} = \left({{1}\over{R_1}} + {{1}\over{R_2}} + ... + {{1}\over{R_N}}\right)^{-1}$$</p>
 <div class="secSep"></div>
 <h2>Types of resistors!</h2>
 <div class="secSep"></div>
@@ -103,21 +109,21 @@
 	<tbody>
 		<tr>
 			<td>E-?</td>
-			<td>Ohm's Law</td>
+			<td>Solving for Resistance in Ohm's Law</td>
 			<td>$$\text{Resistance} = {{{\text{Voltage}}\over{\text{Current}}}}$$</td>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
 			<td>E-?</td>
-			<td>Resistantors in Series</td>
+			<td>Resistance in Series</td>
 			<td>$$R_{\text{Total}} = R_1 + R_2 + ... + R_N$$</td>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
 			<td>E-?</td>
-			<td>Resistantors in Parallel</td>
+			<td>Resistance in Parallel</td>
 			<td>$$R_{\text{Total}} = \left({{1}\over{R_1}} + {{1}\over{R_2}} + ... + {{1}\over{R_N}}\right)^{-1}$$</td>
 			<td></td>
 			<td></td>

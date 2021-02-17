@@ -1,46 +1,72 @@
 <?php
 	include_once 'includes/header.php';
 ?>
-<h1>DC Series Circuits</h1>
-<p>What are series circuits, and why are they in series. All this and more in this article.</p>
-<h4>Series Circuit Equations</h4>
-<p>
-	<ul>
-		<li>Voltage drops add to equal total voltage.</li>
-		<li>All components share the same current.</li>
-		<li>Resistance can be summed.</li>
-	</ul>
-</p>
-<table width="100%">
-	<tr>
-		<th>Section</th>
-		<th>Equation ID</th>
-		<th>Equation</th>
-	</tr>
-	<tr>
-		<td>Resistance</td>
-		<td>E-?</td>
-		<td>$$\sum R = R_1 + R_2 + R_N$$</td>
-	</tr>
-	<tr>
-		<td>Voltage</td>
-		<td>E-?</td>
-		<td>$$\sum V = VR_1 + VR_2 + VR_N$$</td>
-	</tr>
-	<tr>
-		<td>Current/Amps</td>
-		<td>E-?</td>
-		<td>$$\sum I = IR_1 + IR_2 + IR_N$$</td>
-	</tr>
-	<tr>
-		<td>Power</td>
-		<td>E-?</td>
-		<td>$$\sum P  = PR_1 + PR_2 + PR_N$$</td>
-	</tr>
+<h1>Series Circuits</h1>
+<div class="mainSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Amperage</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Voltage</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Resistance</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Simple Series Circuits</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Complex Series Circuits</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="mainSep"></div>
+<table class="EquationTB">
+	<thead><tr class="EqTBHeader">
+			<th><h2>Equation ID</h2></th>
+			<th><h2>Equation Name</h2></th>
+			<th><h2>Equation</h2></th>
+			<th><h2>Requires</h2></th>
+			<th><h2>Extends</h2></th>
+	</tr></thead>
+	<tbody>
+		<tr>
+			<td>E-?</td>
+			<td>Amperage in a Parallel Circuit</td>
+			<td>$$\text{Amperage}_{\text{total}} = \text{Amperage}_{\text{anywhere}}$$</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>E-?</td>
+			<td>Voltage in a Parallel Circuit</td>
+			<td>$$\text{Voltage}_{\text{Total}} (V_{\text{Total}}) = V_1 + V_2 + ... + V_N$$</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>E-?</td>
+			<td>Resistance in a Parallel Circuit</td>
+			<td>$$R_{\text{Total}} = R_1 + R_2 + ... + R_N$$</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>E-?</td>
+			<td>Power in a Parallel Circuit</td>
+			<td>$$\sum P  = PR_1 + PR_2 + PR_N$$</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
 </table>
-<h2>Kirchoff's Voltage Law</h2>
-<p>$\sum V = 0$</p>
+<div class="secSep"></div>
 <h2>Glossary</h2>
+<div class="secSep"></div>
 <table width="100%">
 	<tr>
 		<th>Term</th>

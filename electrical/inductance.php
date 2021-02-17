@@ -1,7 +1,28 @@
 <?php
 	include_once 'includes/header.php';
 ?>
+<h1>Inductance</h1>
+<div class="mainSep"></div>
+<h2>Intro</h2>
 <div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Application</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Types of Inductors</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Inductors in Series Circuits</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Inductors in Parallel Circuits</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="mainSep"></div>
 <h2>Equation Table</h2>
 <div class="secSep"></div>
 <table class="EquationTB">
