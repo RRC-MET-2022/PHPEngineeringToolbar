@@ -1,7 +1,30 @@
 <?php
 	include_once 'includes/header.php';
 ?>
+<h1>Amperage</h1>
+<div class="mainSep"></div>
+<h2>Explanation</h2>
 <div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Ohm's Law</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Series</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Parallel</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Ammeter</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+
+<div class="mainSep"></div>
 <h2>Equation Table</h2>
 <div class="secSep"></div>
 <table class="EquationTB">

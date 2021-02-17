@@ -1,27 +1,13 @@
 <?php
 	include_once 'includes/header.php';
 ?>
-<h1>Voltage</h1>
+<h1></h1>
 <div class="mainSep"></div>
-<h2>Explanation</h2>
+<h2></h2>
 <div class="secSep"></div>
 <p></p>
 <div class="secSep"></div>
-<h2>Ohm's Law</h2>
-<div class="secSep"></div>
-<p></p>
-<div class="secSep"></div>
-<h2>Series</h2>
-<div class="secSep"></div>
-<p></p>
-<div class="secSep"></div>
-<h2>Parallel</h2>
-<div class="secSep"></div>
-<p></p>
-<div class="secSep"></div>
-<h2>Voltmeter</h2>
-<div class="secSep"></div>
-<p></p>
+
 <div class="mainSep"></div>
 <h2>Equation Table</h2>
 <div class="secSep"></div>

@@ -57,7 +57,7 @@
 			<div id="mySidenav" class="sidenav">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				<a href="limits.php">Limits</a>
-				<a href="derivatives.php">Derivatives</a>
+				<a href="derivative.php">Derivatives</a>
 				<a href="integrals.php">Integrals</a>
 				<a href="mathRef.php">Reference</a>
 			</div>
