@@ -11,6 +11,8 @@
 	<link rel="stylesheet" type="text/css" href="../css/reset.css">
 	<!-- Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+	<!-- Joint JS Style -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jointjs/2.1.0/joint.css" />
 	<!-- Mechanical Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="css/elecStyle.css">
 	<!-- Background Creation Script -->

@@ -1,7 +1,7 @@
 <?php
 	include_once 'includes/header.php';
 ?>
-<h1>Units and Fluid basics</h1>
+<h1>Units</h1>
 <div class="mainSep"></div>
 <h2>Common Units Table</h2>
 <div class="secSep"></div>
