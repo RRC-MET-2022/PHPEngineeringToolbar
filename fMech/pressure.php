@@ -1,9 +1,12 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Pressure";
+	require "../header.php";
 ?>
 <h1>Pressure</h1>
 <div class="secSep"></div>
 <p></p>
+<div id="pressureJoint"></div>
+<script src="js/pressure.js"></script>
 <div class="secSep"></div>
 <h2>Units of Pressure</h2>
 <div class="secSep"></div>
@@ -133,5 +136,5 @@
 	</tr>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

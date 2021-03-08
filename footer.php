@@ -89,69 +89,69 @@
 	<table id="navTb" class="navTb"><tr>
 		<!-- SideNavBar -->
 		<td width="2%"><div id="navEl" class="navEl" style="background-color:#ffffff00">
-			<img src="../img/plus.png" class="sideNavBtn grow" id="sideNavBtn" onclick="openNav()">
+			<img <?php if ($darkMode == true) {echo "src=\"/img/plusW.png\"";}else {echo "src=\"/img/plusB.png\"";}?> class="sideNavBtn grow" id="sideNavBtn" onclick="openNav()">
+
 		</div></td>
+		
 		<!-- Mathimatics -->
-		<td width="14%" align="center"><a href="mathamatics"><div id="navEl" class="navEl">
+		<td width="14%" align="center"><a href="/mathamatics"><div id="navEl" class="navEl">
 			<p id="navTxt" class="navTxt">Mathamatics</p>
-			<img src="img/math.png" class="navImg grow" id="navImg">
+			<img <?php if ($darkMode == true) {echo "src=\"/img/mathW.png\"";}else {echo "src=\"/img/mathB.png\"";}?> class="navImg grow" id="navImg">
 		</div></a></td>
 
 		<!-- Mechanical -->
-		<td width="17%" align="center"><a href="mechanical"><div id="navEl" class="navEl">
+		<td width="17%" align="center"><a href="/mechanical"><div id="navEl" class="navEl">
 			<p id="navTxt" class="navTxt">Mechanical Design</p>
-			<img src="img/gear.png" class="navImg grow" id="navImg">
+			<img <?php if ($darkMode == true) {echo "src=\"/img/gearW.png\"";}else {echo "src=\"/img/gearB.png\"";}?> class="navImg grow" id="navImg">
 		</div></a></td>
 		
 		<!-- Electrical -->
-		<td width="17%" align="center"><a href="electrical"><div id="navEl" class="navEl">
+		<td width="17%" align="center"><a href="/electrical"><div id="navEl" class="navEl">
 			<p id="navTxt" class="navTxt">Electrical Engineering</p>
-			<img src="img/bolt.png" class="navImg grow" id="navImg">
+			<img <?php if ($darkMode == true) {echo "src=\"/img/boltW.png\"";}else {echo "src=\"/img/boltB.png\"";}?> class="navImg grow" id="navImg">
 		</div></a></td>
+
 		<!-- Home -->
-		<td width="2%" align="center"><a href="index.php"><div id="navEl" class="navEl">
-			<img src="img/home.png" class="navImg grow" id="navImg">
+		<td width="2%" align="center"><a href="/"><div id="navEl" class="navEl">
+			<img <?php if ($darkMode == true) {echo "src=\"/img/logoW.png\"";}else {echo "src=\"/img/logoB.png\"";}?> class="navImg grow" id="navImg">
 		</div></a></td>
+
 		<!-- Fluid Mechanics -->
-		<td width="17%" align="center"><a href="fMech"><div id="navEl" class="navEl">
+		<td width="17%" align="center"><a href="/fMech"><div id="navEl" class="navEl">
 			<p id="navTxt" class="navTxt">Fluid Mechanics</p>
-			<img src="img/drop.png" class="navImg grow" id="navImg">
+			<img <?php if ($darkMode == true) {echo "src=\"/img/dropW.png\"";}else {echo "src=\"/img/dropB.png\"";}?> class="navImg grow" id="navImg">
 		</div></a></td>
 
 		<!-- Material Science -->
-		<td width="17%" align="center"><a href="matSci"><div id="navEl" class="navEl">
+		<td width="17%" align="center"><a href="/matSci"><div id="navEl" class="navEl">
 			<p id="navTxt" class="navTxt">Material Science</p>
-			<img src="img/carbon.gif" class="navImg grow" id="navImg">
+			<img <?php if ($darkMode == true) {echo "src=\"/img/matW.png\"";}else {echo "src=\"/img/matB.png\"";}?> class="navImg grow" id="navImg">
 		</div></a></td>
 		
 		<!-- About Me -->
-		<td width="17%" align="center"><a href="aboutMe"><div id="navEl" class="navEl">
+		<td width="17%" align="center"><a href="/aboutMe"><div id="navEl" class="navEl">
 			<p id="navTxt" class="navTxt">About Me</p>
-			<img src="img/profile.png" class="navImg grow" id="navImg">
+			<img <?php if ($darkMode == true) {echo "src=\"/img/profileW.png\"";}else {echo "src=\"/img/profileB.png\"";}?> class="navImg grow" id="navImg">
 		</div></a></td>
 
 		<!-- News -->
-		<td width="15%" align="center"><a href="nIndex"><div id="navEl" class="navEl">
+		<td width="15%" align="center"><a href="/nIndex"><div id="navEl" class="navEl">
 			<p id="navTxt" class="navTxt">News</p>
-			<img src="img/news.png" class="navImg grow" id="navImg">
+			<img <?php if ($darkMode == true) {echo "src=\"/img/newsW.png\"";}else {echo "src=\"/img/newsB.png\"";}?> class="navImg grow" id="navImg">
 		</div></a></td>
 	</tr></table>
 	
 	<!-- Footer -->
 	<div id="footer" class="footer"><table class="footerTb" id="footerTb">
 		<tr>
-			<th width="33%" align="left">Date Updated: January 2021</th>
-			<th width="33%" align="center"><p>Designed and created by Alexander Schonwetter</p></th>
+			<td width="33%" align="left">Date Updated: January 2021</td>
+			<td width="33%" align="center">Designed and created by Alexander Schonwetter</td>
 			<!-- Social Logos -->
-			<th width="33%" align="right"><div>
-				<table id="socialButtons" class="socialButtons">
-					<tr>
-						<td><a href="https://www.linkedin.com/in/alexander-schonwetter-33a820183/"><img src="img/linkedin.png" class="grow"></a></td>
-						<td><a href="mailto:alex.schonwetter@gmail.com"><img src="img/enevelope.png" class="grow"></a></td>
-						<td><a href="https://www.youtube.com/channel/UCqXJYywwtdoPYTtIgCfxa2w"><img src="img/youtube.png" class="grow"></a></td>
-					</tr>
-				</table>
-			</div></th>
+			<td width="33%" align="right"><div><table id="socialButtons" class="socialButtons"><tr>
+				<td><a href="https://www.linkedin.com/in/alexander-schonwetter-33a820183/"><img <?php if ($darkMode == true) {echo "src=\"/img/linkedinW.png\"";}else {echo "src=\"/img/linkedinB.png\"";}?> class="grow"></a></td>
+				<td><a href="mailto:alex.schonwetter@gmail.com"><img <?php if ($darkMode == true) {echo "src=\"/img/enevelopeW.png\"";}else {echo "src=\"/img/enevelopeB.png\"";}?> class="grow"></a></td>
+				<td><a href="https://www.youtube.com/channel/UCqXJYywwtdoPYTtIgCfxa2w"><img <?php if ($darkMode == true) {echo "src=\"/img/youtubeW.png\"";}else {echo "src=\"/img/youtubeB.png\"";}?> class="grow"></a></td>
+			</tr></table></div></td>
 		</tr>
 	</table></div>
 

@@ -48,13 +48,13 @@ h5 {
   font-size: 20px;
 }
 
-
 /*Background Style*/
 .bgd {
   position: fixed;
-  background-color: #234199; 
   left: 0;
   top: 0;
+  width: 100%;
+  height: 100%;
   z-index: -1;
 }
 /*Navbar table*/
@@ -70,7 +70,6 @@ h5 {
 }
 /*Nav Button Style*/
 .navEl{
-  background-color: #4CAF50;
   padding: 0px;
   top:35px;
   margin: 0px;
@@ -118,8 +117,6 @@ h5 {
   margin-right: 35px;
   margin-bottom: 100px;
   padding: 30px 60px;
-	color: black;
-  background-color: white;
 	opacity: 95%;
 	border-radius: 30px;
   transition: 0.5s;
@@ -134,7 +131,6 @@ h5 {
 	left: 0;
 	bottom: 1%;
   width: 100%;
-	color: #BDBDBD;
 	opacity: 75%;
   transition: 1s
 }
@@ -144,7 +140,6 @@ h5 {
 }
 /*Footer Animation*/
 .footer:hover {
-  color: black;
   opacity: 100%;
   bottom: 2.5%;
 }
@@ -174,7 +169,6 @@ h5 {
   top: 0px;
   left: 0;
   opacity: 90%;
-  background-color: #64E3FF;
   border-radius: 30px;
   transition: 0.5s;
   padding-top: 60px;
@@ -186,14 +180,12 @@ h5 {
 }
 .sideNavBtn {
   margin-top: 35px;
-  background-color: #64E3FF;
   border-radius: 30px;
 }
 .sidenav a, .dropdown-btn {
   padding: 8px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
   display: block;
   border: none;
   border-radius: 30px;
@@ -211,7 +203,6 @@ h5 {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #63FFA3;
   padding-left: 15px;
   font-size: 20px;
   border-radius: 30px;
@@ -257,15 +248,9 @@ h5 {
 }
 .labels{
 }
-.MainContent {
-  min-height: 3000px;
-}
+
 [data-toggle="toggle"] {
   display: none;
-}
-a:link, a:visited {
-  text-decoration: none !important;
-  color: #0645ad !important;
 }
 .secSep {
   height: 15px;
@@ -279,4 +264,70 @@ a:link, a:visited {
 .noScrollBar {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+.darkToggleEl {
+  position: fixed;
+  right: 50px;
+  top: 100px;
+}
+.darkToggleEl img {
+  display: inline-block;
+  padding-top: 5px;
+  vertical-align: middle;
+  height: 30px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  content:"";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  border-radius: 34px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-transition:.4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #4A6De5;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #4A6De5;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
 }

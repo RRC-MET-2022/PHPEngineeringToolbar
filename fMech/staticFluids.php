@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Static Fluids";
+	require "../header.php";
 ?>
 <h1>Static Fundaments</h1>
 <h2>Pascal's Paradox</h2>
@@ -120,5 +121,5 @@
 	</tr>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

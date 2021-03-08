@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Equation Sheet";
+	require "../header.php";
 ?>
 <H1>Fluid Mechanics Equation Sheet</H1>
 <table class="EquationTB">
@@ -392,5 +393,5 @@
 	</tbody>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

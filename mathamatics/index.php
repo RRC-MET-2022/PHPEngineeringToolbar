@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Mathamatics";
+	require "../header.php";
 ?>
 <H1>Mathematics</H1>
 <div class="mainSep"></div>
@@ -20,5 +21,5 @@
 <p></p>
 
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

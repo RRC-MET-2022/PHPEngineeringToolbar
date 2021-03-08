@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Portfolio";
+	require "../header.php";
 ?>
 <H1>Portfolio</H1>
 <div class="secSep"></div>
@@ -126,5 +127,5 @@
 	</div>
 </div>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Derivative";
+	require "../header.php";
 ?>
 <h1>The Derivative</h1>
 <h2>TLDR</h2>
@@ -37,8 +38,20 @@
 		<td>Chain Rule</td>
 		<td>$${{d}\over{dx}} f(g(x)) = f'(g(x))\cdot g'(x)$$</td>
 	</tr>
+</table>
+<div class="secSep"></div>
+<h2>Implicit Differentiation</h2>
+<div class="secSep"></div>
+<p>Find ${{dy}\over{dx}}$ where, $x^2 +y^2 +2xy+ 1$.</p>
+<table>
 	<tr>
-		<td>Implicit Differentialtion</td>
+		<th>Math</th>
+		<th>Explanation</th>
+		<th>Reference</th>
+	</tr>
+	<tr>
+		<td>$$2x^2-1 + {{d(y^2)}\over{dx}} + \left($$</td>
+		<td></td>
 		<td></td>
 	</tr>
 </table>
@@ -73,5 +86,5 @@
 	</tr>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

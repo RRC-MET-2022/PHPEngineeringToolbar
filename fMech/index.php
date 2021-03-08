@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Fluid Mechanics";
+	require "../header.php";
 ?>
 <H1>Fluid Mechanics</H1>
 <div class="secSep"></div>
@@ -28,5 +29,5 @@
 	Before statics are taught there are a few foundational ideas that need to be explained. But if you feel confident then strap in, as fluid mechanics can be quite turbulent.
 </p>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

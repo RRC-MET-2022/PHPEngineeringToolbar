@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Engineering Toolbar";
+	require "header.php";
 ?>
 
 <h1>Engineer Toolbar</h1>
@@ -28,5 +29,5 @@
 <p>Have a question for us? Go to the Q&A page.</p>
 
 <?php
-	include_once 'includes/footer.php';
+	require "footer.php";
 ?>

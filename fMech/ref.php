@@ -1,7 +1,8 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Fluid Reference";
+	require "../header.php";
 ?>
 
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "GD&T Symbols";
+	require "../header.php";
 ?>
 <H1>GD&T Symbols</H1>
 <div class="secSep"></div>
@@ -104,5 +105,5 @@
 	</tr>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

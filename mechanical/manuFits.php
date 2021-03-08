@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Fits, Tolerance, and Allowance";
+	require "../header.php";
 ?>
 <H1>Fits/Tolerance/Allowance</H1>
 <div class="secSep"></div>
@@ -63,5 +64,5 @@
 	</tr>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

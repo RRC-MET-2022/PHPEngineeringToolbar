@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Capacitance";
+	require "../header.php";
 ?>
 <h1>Capacitance</h1>
 <div class="mainSep"></div>
@@ -174,5 +175,5 @@
 	</tbody>	
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

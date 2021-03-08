@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Series Circuit";
+	require "../header.php";
 ?>
 <h1>Series Circuits</h1>
 <div class="mainSep"></div>
@@ -86,5 +87,5 @@
 	</tr>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "";
+	require "../header.php";
 ?>
 <H1>Other testing methods</H1>
 <div class="secSep"></div>
@@ -15,5 +16,5 @@
 <div class="secSep"></div>
 <p></p>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

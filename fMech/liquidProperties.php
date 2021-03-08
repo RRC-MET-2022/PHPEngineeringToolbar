@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Liquids Properties";
+	require "../header.php";
 ?>
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 <!-- Parent Slideshow Div -->
@@ -1944,5 +1945,5 @@
 <p align="center">Use arrows on sides for more tables!</p>
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

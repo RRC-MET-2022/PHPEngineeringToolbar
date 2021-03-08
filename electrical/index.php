@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Electrical Engineering";
+	require "../header.php";
 ?>
 <h1>Electrical Engineering</h1>
 <div class="mainSep"></div>
@@ -19,5 +20,5 @@
 <div class="secSep"></div>
 <p></p>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Forging";
+	require "../header.php";
 ?>
 <H1>Manufacturing Processes: Forging</H1>
 <div class="secSep"></div>
@@ -98,5 +99,5 @@
 	</tr>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

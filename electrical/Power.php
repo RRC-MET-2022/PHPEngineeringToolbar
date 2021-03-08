@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Power";
+	require "../header.php";
 ?>
 <h1>Power</h1>
 <div class="mainSep"></div>
@@ -45,5 +46,5 @@
 	</tbody>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

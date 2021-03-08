@@ -1,6 +1,9 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Integral";
+	require "../header.php";
 ?>
+<h1>Integrals</h1>
+<div class="mainSep"></div>
 <table>
 	<tr>
 		<td>Definition of Integral</td>
@@ -19,12 +22,31 @@
 		<td>$$\int f(x) + g(x) = \int f(x) dx + \int g(x) dx$$</td>
 	</tr>
 	<tr>
-		<td>Power Rule</td>
+		<td>Integral of a Power</td>
 		<td>$$\int x^n dx ={{x^{n+1}}\over{n+1}}+C$$</td>
+	</tr>
+	<tr>
+		<td>Power Rule</td>
+		<td>$$\int (x+1)^n = {{(x+1)^{n+1}}\over{n+1}} + C$$</td>
 	</tr>
 	<tr>
 		<td>Product Rule (Integration by parts)</td>
 		<td>$$\int f(x)\cdot g(x) = f(x) \int g(x) dx - \int f(x)\left(\int g(x) dx \right) dx$$</td>
+	</tr>
+	<tr>
+		<td>Area under a Curve</td>
+		<td>$$A_{ab} = \left[\int f(x) dx \right]^b_a = \int f(b) - \int f(a)$$</td>
+	</tr>
+</table>
+<h3>Other Integral Things</h3>
+<table width="50%">
+	<tr>
+		<td>The $\int$ of dx</td>
+		<td>$$\int dx = x$$</td>
+	</tr>
+	<tr>
+		<td>The $\int$ of -gative exponoents</td>
+		<td>$$\int x^{-\left({{2}\over{3}}\right)} = {{x^{\left({{1}\over{3}}\right)}}\over{1/3}}$$</td>
 	</tr>
 </table>
 
@@ -59,5 +81,5 @@
 	</tr>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Form";
+	require "../header.php";
 ?>
 <div class="secSep"></div>
 <h2>Equation Table</h2>
@@ -32,5 +33,5 @@
 	</tr>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

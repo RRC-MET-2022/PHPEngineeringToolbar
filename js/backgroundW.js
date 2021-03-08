@@ -2,14 +2,10 @@ document.addEventListener('DOMContentLoaded',bgcanvas,false);
 function bgcanvas() {
 	drawBorder();
 }
-
 function drawBorder() {
-
-	var cwidth = document.body.clientWidth + 15;
-
-	var cheight = document.body.clientHeight + 1200;
-
 	var borderCanvas = document.getElementById("bgd");
+	var cwidth = window.screen.width;
+	var cheight = window.screen.height;
 	borderCanvas.width = cwidth;
 	borderCanvas.height = cheight;
 	var bg = borderCanvas.getContext("2d");

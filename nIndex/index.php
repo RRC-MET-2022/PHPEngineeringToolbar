@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Current News";
+	require "../header.php";
 ?>
 <H1>Website News!</H1>
 <p>The portal for all things new in the website!</p>
@@ -30,5 +31,5 @@
 </div>
 <p></p>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

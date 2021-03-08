@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Amperage";
+	require "../header.php";
 ?>
 <h1>Amperage</h1>
 <div class="mainSep"></div>
@@ -83,5 +84,5 @@
 	</tr>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

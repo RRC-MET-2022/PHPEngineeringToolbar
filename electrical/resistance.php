@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Resistance";
+	require "../header.php";
 ?>
 <h1>Resistance and Resistors</h1>
 <div class="mainSep"></div>
@@ -93,7 +94,7 @@
 <div class="secSep"></div>
 <h3>SMD Resistor Codes</h3>
 <div class="secSep"></div>
-<p></p>
+<p>$$B = In {{R_{T1}}\over{R_{T2}}}/\left({{1}\over{T_1}}-{{1}\over{T_2}}\right)$$</p>
 <div class="secSep"></div>
 <h2>Equation Table</h2>
 <div class="secSep"></div>
@@ -171,5 +172,5 @@
 	</tr>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

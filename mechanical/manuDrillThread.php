@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Drilling and Thread";
+	require "../header.php";
 ?>
 <H1>Drilling/Threading</H1>
 <div class="secSep"></div>
@@ -44,5 +45,5 @@
 	</tr>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

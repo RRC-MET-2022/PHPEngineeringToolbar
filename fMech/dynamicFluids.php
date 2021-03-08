@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Dynamic Fluids";
+	require "../header.php";
 ?>
 <h1>Flow of Fluids</h1>
 
@@ -42,5 +43,5 @@
 	</tr>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

@@ -1,36 +1,51 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Datums";
+	require "../header.php";
 ?>
+<h1>The Mighty Datum</h1>
+<div class="mainSep"></div>
+<h2>Degrees of Freedom</h2>
 <div class="secSep"></div>
-<h2>Equation Table</h2>
+<p>Two classes:</p>
+<ul>
+	<li>Translational - Can be moved linearly in 3 directions x,y,z.</li>
+	<li>Rotational - Can be rotated in 3 axis' u,v,w.</li>
+</ul>
+<p>These come in two types of datums:</p>
+<ul>
+	<li>Plane Datums</li>
+	<li>Axis Datums</li>
+</ul>
 <div class="secSep"></div>
-<table class="EquationTB">
-	<!-- Table Head -->
-	<thead><tr class="EqTBHeader">
-			<th><h2>Equation ID</h2></th>
-			<th><h2>Equation Name</h2></th>
-			<th><h2>Equation</h2></th>
-			<th><h2>Requires</h2></th>
-			<th><h2>Extends</h2></th>
-	</tr></thead>
-</table>
+<h2>Planes Datums</h2>
 <div class="secSep"></div>
-<h2>Glossary</h2>
+<p></p>
+<h3>Cylindrical Datums</h3>
 <div class="secSep"></div>
-<table>
-	<tr>
-		<th>Term</th>
-		<th>Definition</th>
-	</tr>
-</table>
+<p></p>
 <div class="secSep"></div>
-<h2>References</h2>
+<h3>Concial Datums</h3>
 <div class="secSep"></div>
-<table>
-	<tr>
-		<th></th>
-	</tr>
-</table>
+<p></p>
+<div class="secSep"></div>
+<h2>Spherical Datums</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Axis Datums</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+
+<div class="secSep"></div>
+<h2>The Datum Feature Symbol</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
+<h2>Datum Feature References</h2>
+<div class="secSep"></div>
+<p></p>
+<div class="secSep"></div>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

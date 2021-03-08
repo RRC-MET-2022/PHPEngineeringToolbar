@@ -1,9 +1,10 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "";
+	require "../header.php";
 ?>
 <H1></H1>
 
 		<p></p>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

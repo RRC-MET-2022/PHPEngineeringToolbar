@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Graphing Calculator</title>
+	<script src="js/graph.js"></script>
+	<style>
+		.graph {
+			margin: auto;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<form action="" style="text-align: center;">
+		<input type="text" name="graphEq" value="y=x">
+	</form>
+	<canvas id="graph" class="graph" align="center"></canvas>
+	
+	<script>
+		let res = 50;
+		function displayOnLoad() {drawGraph(800,800,res);}//on load defaults
+		window.addEventListener("load", displayOnLoad);
+		function displayWindowSize() {drawGraph(800,800,res);}//on resize defaults
+		window.addEventListener("resize", displayWindowSize);
+		function zoomGraph(event) {//on zoom on graph
+			res = res + event.deltaY * 0.1;
+			drawGraph(800,800,res);
+		}
+		document.getElementById('graph').addEventListener("wheel", zoomGraph);
+	</script>
+</body>
+</html>

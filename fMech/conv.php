@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Unit Conversions";
+	require "../header.php";
 ?>
 <H1>Conversion Tables</H1>
 <table class="EquationTB">
@@ -36,5 +37,5 @@
 </table>
 
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

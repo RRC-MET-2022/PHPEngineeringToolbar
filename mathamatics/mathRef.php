@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "Mathamatical Reference";
+	require "../header.php";
 ?>
 <table class="EquationTB" width="100%">
 	<thead>
@@ -72,5 +73,5 @@
 	</tbody>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

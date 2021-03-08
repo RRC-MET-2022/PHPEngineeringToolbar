@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "G Code";
+	require "../header.php";
 ?>
 <H1></H1>
 
@@ -35,5 +36,5 @@
 	</tr>
 </table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>

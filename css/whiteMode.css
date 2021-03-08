@@ -1,0 +1,72 @@
+/*This is the website overall format. When you change this you change the entire website!! so be careful!*/
+/*Table Headers*/
+th {
+  color: black;
+}
+/*Paragraph Format*/
+p {
+  color: black;
+}
+/*Bold Format*/
+b {
+  color: black;
+}
+/*Italics Format*/
+i {
+  color: black;
+}
+u {
+  color: black; 
+}
+/*Overall Heading Format*/
+h1, h2, h3, h4, h5 {
+  color: black;
+}
+body {
+  background-color: #002082;
+}
+/*Nav Button Style*/
+.navEl{
+  background-color: #18cd4c;
+}
+/*Header Text*/
+.navTxt {
+  color: black;
+}
+
+/*The body of the article*/
+.mainContent {
+	color: black;
+  background-color: white;
+}
+
+/*Footer Div*/
+.footer {
+	color: white;
+}
+
+/*Footer Animation*/
+.footer:hover {
+  color: white;
+}
+/*Anitmation for rotate and scale*/
+.sidenav {
+  background-color: #4A6DE5;
+}
+.sideNavBtn {
+  background-color: #4A6DE5;
+}
+.sidenav a, .dropdown-btn {
+  color: #818181;
+}
+
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+.active {
+  background-color: #00FFB6;
+  color: black;
+}
+.dropdown-container {
+  background-color: #63FFA3;
+}

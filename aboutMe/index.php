@@ -1,5 +1,6 @@
 <?php
-	include_once 'includes/header.php';
+	$title = "About Me";
+	require "../header.php";
 ?>
 <div class="ResName">Alexander Schonwetter</div>
 		<div style="height: 15px;"></div>
@@ -307,5 +308,5 @@
 			</tr>
 		</table>
 <?php
-	include_once 'includes/footer.php';
+	require "../footer.php";
 ?>
