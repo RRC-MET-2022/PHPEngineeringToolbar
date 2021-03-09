@@ -14,6 +14,8 @@
 	<link rel="stylesheet" type="text/css" href ="/css/reset.css">
 	<!-- Stylesheet -->
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<!-- Calculator Style -->
+	<link rel="stylesheet" type="text/css" href="/css/calc.css">
 	<!-- DarkMode Style -->
 	<?php
 		$darkMode = false;

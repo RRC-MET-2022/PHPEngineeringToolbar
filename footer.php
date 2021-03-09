@@ -16,6 +16,21 @@
 		  document.getElementById("sideNavBtn").style.opacity = "100%";
 		  document.getElementById("navTb").style.marginLeft = "35px";
 		}
+
+		function openCalc() {
+			document.getElementById('calcTray').style.bottom = "5%";
+			document.getElementById('calcUpBtn').style.opacity = "0%";
+			document.getElementById('calcUpBtn').style.height = "0";
+			document.getElementById('calcDwnBtn').style.opacity = "100%";
+			document.getElementById('calcDwnBtn').style.height = "10px";
+		}
+		function closeCalc() {
+			document.getElementById('calcTray').style.bottom = "-300px";
+			document.getElementById('calcUpBtn').style.opacity = "100%";
+			document.getElementById('calcUpBtn').style.height = "10px";
+			document.getElementById('calcDwnBtn').style.opacity = "0%";
+			document.getElementById('calcDwnBtn').style.height = "0";
+		}
 	</script>
 	<!-- Dropdown Script -->
 	<script>
@@ -140,11 +155,21 @@
 			<img <?php if ($darkMode == true) {echo "src=\"/img/newsW.png\"";}else {echo "src=\"/img/newsB.png\"";}?> class="navImg grow" id="navImg">
 		</div></a></td>
 	</tr></table>
-	
+
+	<!-- Calculator -->
+	<div id="calcTray" class="calcTray">
+		<div id="calcUpBtn" class="calcUpBtn" onclick="openCalc();">&#9650</div>
+		<div id="calcDwnBtn" class="calcDwnBtn" onclick="closeCalc();">&#9660</div>
+		<?php 
+			include 'calc.php';
+		?>
+		
+	</div>
+
 	<!-- Footer -->
 	<div id="footer" class="footer"><table class="footerTb" id="footerTb">
 		<tr>
-			<td width="33%" align="left">Date Updated: January 2021</td>
+			<td width="33%" align="center"></td>
 			<td width="33%" align="center">Designed and created by Alexander Schonwetter</td>
 			<!-- Social Logos -->
 			<td width="33%" align="right"><div><table id="socialButtons" class="socialButtons"><tr>

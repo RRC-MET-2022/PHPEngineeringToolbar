@@ -1,0 +1,26 @@
+.calcTB {
+	width: 200px;
+	height: 300px;
+	border-radius: 15px;
+	padding: 10px;
+}
+.calcDisplay {
+	height: 50px;
+	width: 100%;
+	border-radius: 15px;
+	color:white;
+	background-color: #323232;
+	vertical-align: middle;
+}
+.calcTB td {
+	text-align: center;
+	width: 45px;
+	height: 45px;
+}
+.calcTB button {
+	height: 100%;
+	width: 100%;
+	color: white;
+	background-color: #454545;
+	border-radius: 15px;
+}

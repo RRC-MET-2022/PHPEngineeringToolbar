@@ -20,11 +20,11 @@
 		let res = 50;
 		function displayOnLoad() {drawGraph(800,800,res);}//on load defaults
 		window.addEventListener("load", displayOnLoad);
-		function displayWindowSize() {drawGraph(800,800,res);}//on resize defaults
+		function displayWindowSize() {drawGraph(1040,1500,res);}//on resize defaults
 		window.addEventListener("resize", displayWindowSize);
 		function zoomGraph(event) {//on zoom on graph
 			res = res + event.deltaY * 0.1;
-			drawGraph(800,800,res);
+			drawGraph(1040,1500,res);
 		}
 		document.getElementById('graph').addEventListener("wheel", zoomGraph);
 	</script>
